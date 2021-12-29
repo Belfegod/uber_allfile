@@ -1,0 +1,51 @@
+@mixin lable
+	width: 115px
+	height: 27px
+	margin: 0 auto
+	margin-top: 20px
+	background: #000000
+	padding-top: 5px
+	text-align: center
+	font-weight: 300
+	font-size: 11px
+	text-transform: uppercase
+	color: #FFFFFF
+
+@mixin title
+	margin: 0 auto
+	margin-top: 30px
+	width: 723px
+	height: 48px
+	font-weight: 700
+	font-size: 38px
+	text-align: center
+	text-transform: uppercase
+	color: #222222
+		
+@mixin lable_white
+	width: 115px
+	height: 27px
+	margin: 0 auto
+	background: #FFFFFF
+	padding-top: 6px
+	text-align: center
+	font-weight: 300
+	font-size: 11px
+	text-transform: uppercase
+	color: #070716
+	
+@mixin title_white
+	margin: 0 auto
+	margin-top: 26px
+	width: 723px
+	height: 48px
+	font-weight: 700
+	font-size: 38px
+	text-align: center
+	text-transform: uppercase
+	color: #FFFFFF
+
+=btn_hover
+	&:hover
+		background-image: none
+		background-color: $red-color

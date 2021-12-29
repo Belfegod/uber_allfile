@@ -1,0 +1,216 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 50.73px;
+    background: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 40px;
+}
+
+.subheader {
+    width: 100%;
+    position: absolute;
+    height: 87px;
+    background: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100px;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.subheader .subheader_call {
+    font-weight: 300;
+    font-size: 12px;
+  /*   line-height: 14px; */
+    color: #FFFFFF;
+    margin-top: 23px;
+    text-align: right;
+    
+}
+
+.subheader .subheader_phone {
+    display: block;
+    font-weight: 300;
+    font-size: 22px;
+    /* line-height: 68px; */
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: right;
+    text-decoration: none;
+}
+
+.subheader .subheaderf_btn {
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+
+    
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.promo {
+    min-height: 800px;
+    background: url(/src/img/uber_bg.png) center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+
+.promo .promo_subheader {
+    font-weight: 900;
+    font-size: 36px;
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 36px;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_dscr {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promo_btn {
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    display: block;
+    margin: 118px auto;
+
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+}
+
+.substrat {
+    /* padding: 71px 0 65px 0; */
+    min-height: 850px;
+}
+
+.substrat .reasone_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.substrat .substrat_header {
+    width: 115px;
+    height: 27px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #000000;
+
+    padding-top: 5px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.substrat .substrat_subheader {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 723px;
+    height: 48px;
+
+
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.substrat .reasone_block .reasone_round {
+    width: 113px;
+    height: 113px;
+    border-radius: 100%;
+    background: #1EACC7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+
+}
+
+.substrat .reasone_block .reasone_dscr {
+    width: 343px;
+}
+
+.substrat .reasone_block .reasone_subtitle {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.substrat .reasone_block .reasone_text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+
